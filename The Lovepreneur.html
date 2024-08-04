@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacqueens Irabor - The Lovepreneur</title>
+    <style>
+        body {
+            font-family: 'Consolas', cursive, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f15a24;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+            margin: 0;
+        }
+        nav {
+            background-color: #333333;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            color: #f15a24;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .about-me, .blog, .appointments, .photos-videos, .contact {
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        .photo-gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .video-gallery iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #dddddd;
+            font-size: 16px;
+        }
+        .contact-form button {
+            background-color: #f15a24;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #e14e20;
+        }
+        .blog-posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .blog-post {
+            width: 45%;
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .blog-post h3 {
+            color: #f15a24;
+            margin-top: 0;
+        }
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .appointment-card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .appointment-card h3 {
+            margin-top: 0;
+            color: #f15a24;
+        }
+        .appointment-card p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .read-more-content {
+            display: none;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .read-more-btn {
+            background-color: #f15a24;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .read-more-btn:hover {
+            background-color: #e14e20;
+        }
+        .expanded {
+            display: block;
+            max-height: 500px; /* Adjust as needed for content size */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pacqueens Irabor - The Lovepreneur</h1>
+        <p>How to overcome personal and national corruption and achieve fulfilment and national development</p>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#appointments">Appointments</a>
+        <a href="#photos-videos">Photos & Videos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about-me" class="section about-me">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal webpage! I am Pacqueens Irabor, The Lovepreneur. My life's purpose is to make heaven out of earth in every community through the passionate works of LOVEPRENEURS-LOVEFul and purposeful Leaders. 
+        </p>
+        <p>
+
+Our major tool and resource is the propagation of the WORD and POWER of LOVEPRENEURSHIP- a message that transform humans to gods on earth through encounters with their god-word (their personal and unique life's purposes). 
+        </p>
+        <p>
+I believe that when men receive their gods, the revelation of Christ, and believe same, an encounter happens that changes their NATURE, their CULTURE and their FUTURE. They connect with the power to create HEAVEN out of their EARTH in every community and to escape the frustrations and limitations of darkness caused by CORRUPTION. The actions of purposeful men in the flesh in line with the passions in their hearts is what transform earth to heaven and create days full of PLEASURE without PRESSURES and years filled with TREASURES without MEASURE for every life. 
+       </p>
+       <p>
+The message of LOVEPRENEURSHIP empowers citizens of every nation to overcome corruptions at all levels (personal, family, business, industry and government) fostering personal fulfillment and national development.  
+       </p>
+       <p>
+With a background in development finance and a 2 decade of passionate work in the development space, I am dedicated to helping individuals, families, business, industry and government leaders to discover, develop and deploy their gods and create heaven out of their earths.
+        </p>
+        <p>
+            As a thought leader in Lovepreneurship, I aim to inspire others to discover their unique gifts and talents, contributing to societal betterment. Join me on this journey towards making the world a better place, starting from the heart of our communities.
+        </p>
+    </section>
+
+    <section id="blog" class="section blog">
+        <h2>Blog</h2>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <h3>Understanding Lovepreneurship: A Pathway to Purpose</h3>
+                <p>Lovepreneurship emphasizes the importance of purpose in every aspect of life. By aligning our actions with our core values, we can achieve a more fulfilling and impactful existence...</p>
+                <div class="read-more-content">
+                    <p>In a world where many are driven by material gains and temporary success, Lovepreneurship offers a refreshing perspective that values sustainable and meaningful impact over short-term achievements. This approach encourages individuals to harness their unique talents and passions to contribute positively to society. By focusing on creating value through love and purpose, Lovepreneurs can foster communities that thrive on collaboration, trust, and mutual respect.</p>
+                    <p>One of the key tenets of Lovepreneurship is recognizing the interconnectedness of human existence. It teaches us that personal fulfillment and societal progress go hand in hand. By understanding this connection, Lovepreneurs can address social challenges more effectively and implement solutions that promote equity, justice, and inclusivity.</p>
+                </div>
+                <button class="read-more-btn">Read More</button>
+            </div>
+            <div class="blog-post">
+                <h3>Transforming Nigeria: The Role of Development Finance</h3>
+                <p>Development finance plays a crucial role in driving economic growth and innovation in Nigeria. Discover how strategic investments can transform industries and create job opportunities...</p>
+                <div class="read-more-content">
+                    <p>As a nation with vast potential and resources, Nigeria stands at a pivotal point where strategic development finance can catalyze transformative change. By channeling investments into critical sectors such as infrastructure, agriculture, technology, and education, we can unlock new opportunities for growth and prosperity. This not only boosts the economy but also empowers local communities by creating sustainable jobs and improving living standards.</p>
+                    <p>Development finance plays a crucial role in driving economic growth and innovation in Nigeria. Discover how strategic investments can transform industries and create job opportunities...</p>
+                <a href="#">Read more</a>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </div>
+    </section>
+
+    <section id="appointments" class="section appointments">
+        <h2>Appointments</h2>
+        <div class="appointment-card">
+            <h3>Book a Consultation</h3>
+            <p>Interested in learning more about Lovepreneurship or need guidance on overcoming personal and national challenges? Book a one-on-one consultation with me.</p>
+            <p><strong>Available Times:</strong> Mondays, Wednesdays, and Fridays from 10:00 AM to 3:00 PM</p>
+            <button>Schedule Now</button>
+        </div>
+    </section>
+
+    <section id="photos-videos" class="section photos-videos">
+        <h2>Photos & Videos</h2>
+        <div class="photo-gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="video-gallery">
+            <iframe src="https://www.youtube.com/embed/example1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/example2" frameborder="0" allowfullscreen></iframe>
+            <!-- Add more videos as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, comments, or would like to connect with me, please use the form below or reach out via my social media channels.</p>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button>Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pacqueens Irabor. All rights reserved.</p>
+        <p>Follow me on 
+            <a href="#" style="color: #f15a24; text-decoration: none;">Facebook</a> | 
+            <a href="#" style="color: #f15a24; text-decoration: none;">Twitter</a> | 
+            <a href="#" style="color: #f15a24; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p>Designed by Pacqueens Irabor - The Lovepreneur</p>
+    </footer>
+
+</body>
+</html>
